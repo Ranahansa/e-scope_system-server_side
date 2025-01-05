@@ -1,6 +1,10 @@
-﻿namespace FlowAPI.Enums
+﻿namespace Models.Enums
 {
-    public class UserRoles
+    public enum UserRoles
     {
+        Admin,
+        Cashier,
+        Manager,
+        Staff
     }
 }
